@@ -1,5 +1,15 @@
-def looping
-	#your code here
-end
+#def looping
+#  loop do
+#	puts "Wingardium Leviosa"
+#end
+#end
+#looping
+### assigned infinite loop commented out
 
-#call your method here
+def looping
+  10.times do
+	puts "Wingardium Leviosa"
+end
+end
+#method written to terminate
+looping
